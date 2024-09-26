@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <!---Etiquetas Meta-->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Curriculum, CV, José Luis Choquevillca Villca, con experiencia profesional.">
+     <meta name="keywords" content="Curriculum, CV, José Luis, Habilidades, Experiencia, Educación">
+     <meta name="author" content="José Luis Choquevillca Villca">
+ 
+     <!-- Etiquetas Open Graph -->
+     <meta property="og:description" content="Conoce mi formación, habilidades y experiencia profesional en una sola página.">
+     <meta property="og:image" content="img/perfil.jpg">
+     <meta property="og:url" content="https://bychokeyt.github.io/">
+     <meta property="og:type" content="website">
+ 
+     <!-- Favicon -->
+     <link rel="icon" href="img/favicon.png" type="image/png"/>
+    <title>Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007BFF;
+            font-size: 28px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .contact-info h3 {
+            margin-top: 0;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="articulos.html">Artículos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Envíame un mensaje</h2>
+        <form action="enviar_mensaje.php" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Información de Contacto</h3>
+            <p><strong>Teléfono:</strong> +591 123 456 789</p>
+            <p><strong>Email:</strong> jose.luis@bychoke.com</p>
+            <p><strong>Dirección:</strong> Calle Falsa 123, La Paz, Bolivia</p>
+            <p><strong>Horario de Atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 José Luis Choquevillca. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

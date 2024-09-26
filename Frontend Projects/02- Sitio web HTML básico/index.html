@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum, CV, José Luis Choquevillca Villca, con experiencia profesional.">
+    <meta name="keywords" content="Curriculum, CV, José Luis, Habilidades, Experiencia, Educación">
+    <meta name="author" content="José Luis Choquevillca Villca">
+
+    <!-- Etiquetas Open Graph -->
+    <meta property="og:description" content="Conoce mi formación, habilidades y experiencia profesional en una sola página.">
+    <meta property="og:image" content="img/perfil.jpg">
+    <meta property="og:url" content="https://bychokeyt.github.io/">
+    <meta property="og:type" content="website">
+
+    <title>Portafolio - José Luis Choquevillca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+    /* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+
+nav a {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* Main Title Section */
+.title-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.title-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.title-section p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* Main Content Section */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.projects ul {
+    list-style: none;
+}
+
+.projects ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.work-experience a,
+.opensource-work a {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+}
+
+.education ul {
+    list-style: none;
+}
+
+.education ul li {
+    padding: 5px 0;
+}
+
+/* Reviews Section */
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.review-box {
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.review-box p {
+    font-size: 16px;
+}
+
+.review-box .reviewer {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.review-box .title {
+    font-size: 14px;
+    color: grey;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    border-top: 2px solid black;
+}
+
+</style>
+<header>
+    <img src="img/logo.jpg" height="50px">
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Proyectos.html">Proyectos</a>
+        <a href="Articulos.html">Artículos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<div class="title-section">
+    <h1>Ingeniero de Sistemas</h1>
+    <p>Solo HTML con diseño adecuado, sin estilos</p>
+</div>
+
+<div class="main-content">
+    <section class="projects">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>Portafolio Solo HTML</li>
+            <li>Calculadora</li>
+            <li>Aplicación de Preguntas</li>
+            <li>Temporizador de Cuenta Regresiva</li>
+            <li>Página de Próximos Productos</li>
+        </ul>
+    </section>
+    
+    <section class="work-experience">
+        <h2>Experiencia Laboral</h2>
+        <p>roadmap.sh<br>Resolví todos los proyectos frontend</p>
+        <a href="#">Visita mi Perfil</a>
+        
+        <h2>Trabajo de Código Abierto</h2>
+        <p>Contribuí a 50 proyectos de código abierto. Creé mis propios proyectos con 200 estrellas en GitHub.</p>
+        <a href="#">Visita mi Perfil de GitHub</a>
+    </section>
+    
+    <section class="education">
+        <h2>Educación</h2>
+        <p>Graduado con un CGPA de 3.76 sobre 4. Ganador del Hackathon de Acme. Organicé 30 sesiones.</p>
+        <ul>
+            <li>Programación Orientada a Objetos</li>
+            <li>Estructuras de Datos y Algoritmos</li>
+            <li>Ingeniería Web</li>
+            <li>Inteligencia Artificial</li>
+            <li>Interacción Hombre-Computadora</li>
+            <li>Gráficos por Computadora</li>
+            <li>Sistemas de Gestión de Bases de Datos</li>
+            <li>Sistemas Distribuidos de Bases de Datos</li>
+            <li>Matemáticas Discretas</li>
+        </ul>
+    </section>
+</div>
+
+<div class="reviews">
+    <div class="review-box">
+        <p>José Luis Choquevillca fue un estudiante brillante; siempre destacó con sus tareas.</p>
+        <p class="reviewer">unior Doe</p>
+        <p class="title">Profesora Asistente</p>
+    </div>
+    <div class="review-box">
+        <p>José Luis Choquevillca fue un estudiante brillante; siempre destacó con sus tareas.</p>
+        <p class="reviewer">unior Doe</p>
+        <p class="title">Profesora Asistente</p>
+    </div>
+    <div class="review-box">
+        <p>José Luis Choquevillca fue un estudiante brillante; siempre destacó con sus tareas.</p>
+        <p class="reviewer">unior Doe</p>
+        <p class="title">Profesora Asistente</p>
+    </div>
+</div>
+
+<footer>
+    © todos los derechos reservados 2025 - José Luis Choquevillca, Ingeniero de Sistemas en Bolivia
+</footer>
+
+</body>
+</html>
